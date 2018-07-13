@@ -51,7 +51,7 @@ body, html {
     opacity: 0.99; /* For some reason, a little opacity makes the font show better */   
 }
 
-h1 {
+#title {
     position: relative; 
     color: rgb(255, 255, 255); 
     text-align: center; 
