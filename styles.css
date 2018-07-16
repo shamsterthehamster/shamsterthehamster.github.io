@@ -7,16 +7,19 @@ body, html {
     margin: 0; 
 }
 
+/*OstrichLight*/
 @font-face {
     font-family: OstrichLight; 
     src: url(fonts/OstrichSans-Medium.otf);
 }
 
+/*OstrichBold*/
 @font-face {
     font-family: OstrichBold; 
     src: url(fonts/OstrichSans-Bold.otf)
 }
 
+/*OstrichInline*/
 @font-face {
     font-family: OstrichInline; 
     src: url(fonts/Ostrich-Inline/ostrich-sans-inline-regular.eot); /* IE9 Compatible */
@@ -25,15 +28,15 @@ body, html {
          url(fonts/Ostrich-Inline/ostrich-sans-inline-regular.svg) format('svg'); 
 }
 
-.bg {
-    height: 100%; 
-    position: relative;
-    float: right; 
-    /*background-color: blue; */
+/*BebasNeue Bold*/
+@font-face {
+    font-family: BebasRegular;
+    src: url(fonts/BebasNeue\ Regular.ttf)
 }
 
 .bg_image {
     /*background-image: url("images/background.png"); */
+    float: right; 
     height: 90%; 
     position: absolute; 
     bottom: 0; 
@@ -42,13 +45,14 @@ body, html {
 }
 
 .content {
-    font-family: OstrichInline; 
+    font-family: OstrichLight; 
     position: relative; 
     float: left; 
     height: 100%; 
     width: 73%; 
     background-color: rgb(178,206,206, 0.81); 
     opacity: 0.99; /* For some reason, a little opacity makes the font show better */   
+    color: rgb(79, 101, 101); 
 }
 
 #title {
@@ -57,16 +61,88 @@ body, html {
     text-align: center; 
     font-size: 11vw; 
     width: 100%; 
-    margin-top: 3%; 
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+    font-family: OstrichInline;
     font-weight: normal;
     letter-spacing: 5px; 
 }
 
-p {
+#skills {
+    position: relative; 
     float: left; 
-    width: 100%; 
-    margin-bottom: 0%; 
-    font-family: OstrichLight;
-    font-size: 250px; 
+    font-size: 2.7vw; 
+    font-weight: bold; 
+    letter-spacing: 1px; 
+    list-style-type: none; 
+    padding: 0;  
+    margin-top: 2.7%; 
+    width: 50%; 
 }
+
+#skills li {
+    padding-left: 10%; 
+    margin-bottom: 6%; 
+}
+
+
+#skills li i {
+    font-size: 1.5vw; 
+    vertical-align: middle; 
+}
+
+.s-icon {
+    margin-left: 15%; 
+    margin-right: 5%; 
+}
+
+.fa-star {
+    margin-right: 5%; 
+}
+
+
+.stars {
+    width: 55%; 
+    float: right; 
+}
+
+#quote {
+    width: 37%; 
+    margin-top: 0; 
+    padding-left: 6%; 
+    padding-right: 6%; 
+    float: right; 
+    font-family: BebasRegular; 
+    font-size: 4vw; 
+}
+
+.q-small {
+    font-size: 3vw; 
+}
+
+.q-med {
+    font-size: 4vw; 
+}
+
+.q-big {
+    font-size: 5vw; 
+}
+
+.space {
+    margin-left: 3%; 
+}
+
+.white {
+    color: white; 
+}
+
+.yellow {
+    color: rgb(255, 217, 102);
+}
+
+.faded {
+    color: rgb(147, 188, 187); 
+}
+
+
 

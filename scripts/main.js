@@ -1,5 +1,5 @@
 // var - variable (duh), can also use 'let'
-var title = document.querySelector('p'); //semicolons not necessary in JS but good style
+var quote = document.querySelector('p'); //semicolons not necessary in JS but good style
 
 /* Data Types: 
     String - enclosed in quote marks 'example' 
@@ -21,7 +21,7 @@ function concat(s1, s2) {
 name = 'Shamita Nagalla'; 
 //name = 'Nagalla'.toUpperCase();
 //text = concat(s1, name); 
-title.textContent = name;
+//quote.textContent = '"Any sufficiently advanced technology is indistinguishable from magic"';
 
 /* Below is an event: 
     There are many ways to attach an event to an element. 
