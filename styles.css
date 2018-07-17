@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(178, 206, 206); 
+    background-color: rgb(247, 247, 247); 
 }
 
 body, html {
@@ -34,26 +34,31 @@ body, html {
     src: url(fonts/BebasNeue\ Regular.ttf)
 }
 
+#intro {
+    background-color: rgb(178, 206, 206);
+    width: 100%; 
+    position: relative; 
+}
+
 .bg_image {
-    /*background-image: url("images/background.png"); */
-    float: right; 
     max-height: 90%; 
     position: absolute; 
     bottom: 0; 
     right: 0; 
-    /*background-color: pink; */
 }
 
 .content {
-    font-family: OstrichLight; 
+    /* float: left;  */
     position: relative; 
-    float: left; 
-    height: 100%; 
-    width: 73%; 
+    font-family: OstrichLight; 
     background-color: rgb(178, 206, 206); 
     background-color: rgb(178, 206, 206, 0.81); 
+    width: 73%; 
+    height: 100%; 
+    padding-bottom: 3.5%; 
     opacity: 0.99; /* For some reason, a little opacity makes the font show better */   
     color: rgb(79, 101, 101); 
+    overflow: hidden; 
 }
 
 #title {
@@ -100,7 +105,6 @@ body, html {
 .fa-star {
     margin-right: 5%; 
 }
-
 
 .stars {
     width: 55%; 
