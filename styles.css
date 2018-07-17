@@ -28,7 +28,7 @@ body, html {
          url(fonts/Ostrich-Inline/ostrich-sans-inline-regular.svg) format('svg'); 
 }
 
-/*BebasNeue Bold*/
+/*BebasRegular*/
 @font-face {
     font-family: BebasRegular;
     src: url(fonts/BebasNeue\ Regular.ttf)
@@ -51,7 +51,7 @@ body, html {
     height: 100%; 
     width: 73%; 
     background-color: rgb(178, 206, 206); 
-    background-color: rgb(178,206,206, 0.81); 
+    background-color: rgb(178, 206, 206, 0.81); 
     opacity: 0.99; /* For some reason, a little opacity makes the font show better */   
     color: rgb(79, 101, 101); 
 }
@@ -145,5 +145,11 @@ body, html {
     color: rgb(147, 188, 187); 
 }
 
-
+#debug-note {
+    font-family: BebasRegular; 
+    font-size: 1.4vw;  
+    position: absolute; 
+    margin-left: 8%; 
+    margin-top: 3%; 
+}
 
